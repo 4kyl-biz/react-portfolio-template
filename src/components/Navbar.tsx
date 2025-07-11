@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white py-6 px-16 flex justify-between items-center">
       <div className="flex items-center gap-3">
         <Image
-          src="/images/profile.png"
+          src="/images/profile2.png"
           alt="Lee Li"
           width={40}
           height={40}
