@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           alt={title}
           width={600}
           height={600}
-          className="object-cover min-h-[220px] w-full hover:scale-105 transition-transform duration-300"
+          className="object-cover h-[360px] w-full hover:scale-105 transition-transform duration-300"
         />
       </a>
       <CardContent className="flex flex-col gap-2 p-4">
