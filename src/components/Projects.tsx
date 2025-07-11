@@ -11,14 +11,16 @@ const ProjectCard = ({ project }: { project: Project }) => {
   const isDisabled = status !== "Done";
 
   return (
-    <Card className="overflow-hidden flex flex-col">
-      <Image
-        src={image}
-        alt={title}
-        width={600}
-        height={600}
-        className="object-cover"
-      />
+    <Card className="overflow-hidden flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <Image
+          src={image}
+          alt={title}
+          width={600}
+          height={600}
+          className="object-cover min-h-[220px] w-full hover:scale-105 transition-transform duration-300"
+        />
+      </a>
       <CardContent className="flex flex-col gap-2 p-4">
         <h3 className="text-lg font-bold">{title}</h3>
         <p className="text-muted-foreground text-sm">{description}</p>
