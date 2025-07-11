@@ -25,7 +25,7 @@ Check out the live version of this portfolio template:
 
 Here’s a preview of what the homepage looks like:
 
-![Portfolio Screenshot](public/images/project-demo.png)
+![Portfolio Screenshot](public/images/project-demo.gif)
 
 ## 📌 TL;DR – Just Want to Try It?
 
