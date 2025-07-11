@@ -1,8 +1,8 @@
 # React Portfolio Template
 
-A modern, responsive, and customisable portfolio template built with Next.js, Tailwind CSS, and TypeScript.
+A free, simple, fast, and modern portfolio template built with React, TypeScript, Next.js, Tailwind CSS, and shadcn-ui. Vibe-coding development. Completed in 5 hours of leisure time alongside full-time work.
 
-I want to help developers easily create and launch their personal portfolios. This template is free to use (MIT license), whether it's for personal or commercial projects. You can have your portfolio up and running in less than 2 hours. If it helps you out, feel free to give the repo a star or report any bugs you come across!
+It aims to help developers easily create and launch their personal portfolios. This template is free to use (MIT license), whether it's for personal or commercial projects. You can have your portfolio up and running in less than 2 hours. If it helps you out, feel free to give the repo a star or report any bugs you come across!
 
 ## 🚀 Features
 
