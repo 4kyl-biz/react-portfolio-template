@@ -46,7 +46,7 @@ export default function About() {
               I like sharing what I learn in tech and open source. Feel free to
               connect with me on
               <a
-                href="https://www.linkedin.com/in/lee-li"
+                href="https://www.linkedin.com/in/ka-yuen-li-b39669147/"
                 target="_blank"
                 className="text-blue-600 font-medium ml-1"
               >
