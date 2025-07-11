@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Badge } from "./ui/badge";
 
 const skills = [
   "HTML",
@@ -22,7 +23,7 @@ export default function About() {
     <section id="about" className="min-h-screen px-4 py-24 bg-background">
       <div className="max-w-4xl mx-auto">
         <Image
-          src="/images/profile.jpg"
+          src="/images/profile.png"
           alt="Lee Li"
           width={200}
           height={200}
@@ -46,9 +47,9 @@ export default function About() {
               I like sharing what I learn in tech and open source. Feel free to
               connect with me on
               <a
-                href="https://www.linkedin.com/in/lee-li"
+                href="https://www.linkedin.com/in/ka-yuen-li-b39669147/"
                 target="_blank"
-                className="text-blue-600 font-medium ml-1"
+                className="text-primary font-medium ml-1"
               >
                 LinkedIn
               </a>
@@ -58,7 +59,10 @@ export default function About() {
               I'm open to <strong>job opportunities</strong> where I can
               contribute, grow, and build amazing things. If that sounds like
               something you'd like, don't hesitate to{" "}
-              <a href="#projects" className="underline">
+              <a
+                href="#projects"
+                className="text-primary font-medium underline"
+              >
                 check out my projects
               </a>
               .
@@ -69,12 +73,13 @@ export default function About() {
             <h3 className="text-xl font-bold mb-4">My Skills</h3>
             <div className="flex flex-wrap gap-3">
               {skills.map((skill) => (
-                <span
+                <Badge
                   key={skill}
-                  className="bg-muted text-sm px-3 py-1 rounded-md text-muted-foreground shadow"
+                  variant="secondary"
+                  className="text-muted-foreground text-sm px-3 py-1 rounded-md shadow"
                 >
                   {skill}
-                </span>
+                </Badge>
               ))}
             </div>
           </div>
