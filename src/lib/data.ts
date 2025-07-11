@@ -1,3 +1,5 @@
+import { Github, Linkedin, Mail } from "lucide-react";
+
 export const projects: Project[] = [
   {
     title: "React Portfolio Template",
@@ -81,4 +83,10 @@ export const projects: Project[] = [
     ],
     status: "Planning",
   },
+];
+
+export const socialLinks: SocialLink[] = [
+  { icon: Linkedin, href: "https://www.linkedin.com/in/ka-yuen-li-b39669147/" },
+  { icon: Github, href: "https://github.com/4kyl-biz" },
+  { icon: Mail, href: "mailto:lee.li1993wow@gmail.com" },
 ];
