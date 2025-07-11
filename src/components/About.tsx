@@ -48,7 +48,7 @@ export default function About() {
               <a
                 href="https://www.linkedin.com/in/ka-yuen-li-b39669147/"
                 target="_blank"
-                className="text-blue-600 font-medium ml-1"
+                className="text-primary font-medium ml-1"
               >
                 LinkedIn
               </a>
@@ -58,7 +58,10 @@ export default function About() {
               I'm open to <strong>job opportunities</strong> where I can
               contribute, grow, and build amazing things. If that sounds like
               something you'd like, don't hesitate to{" "}
-              <a href="#projects" className="underline">
+              <a
+                href="#projects"
+                className="text-primary font-medium underline"
+              >
                 check out my projects
               </a>
               .
