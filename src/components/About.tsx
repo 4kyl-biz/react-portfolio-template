@@ -22,7 +22,7 @@ export default function About() {
     <section id="about" className="min-h-screen px-4 py-24 bg-background">
       <div className="max-w-4xl mx-auto">
         <Image
-          src="/images/profile.jpg"
+          src="/images/profile.png"
           alt="Lee Li"
           width={200}
           height={200}
