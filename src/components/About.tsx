@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Badge } from "./ui/badge";
 
 const skills = [
   "HTML",
@@ -72,12 +73,13 @@ export default function About() {
             <h3 className="text-xl font-bold mb-4">My Skills</h3>
             <div className="flex flex-wrap gap-3">
               {skills.map((skill) => (
-                <span
+                <Badge
                   key={skill}
-                  className="bg-muted text-sm px-3 py-1 rounded-md text-muted-foreground shadow"
+                  variant="secondary"
+                  className="text-muted-foreground text-sm px-3 py-1 rounded-md shadow"
                 >
                   {skill}
-                </span>
+                </Badge>
               ))}
             </div>
           </div>
