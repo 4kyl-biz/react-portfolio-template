@@ -41,7 +41,14 @@ export default function About() {
               I'm a <strong>Frontend-Focused Web Developer</strong> building and
               managing web apps using modern frameworks. I enjoy creating
               products that are fast, accessible, and visually engaging. Check
-              out some of my work in the <strong>Projects</strong> section.
+              out some of my work in the{" "}
+              <a
+                href="#projects"
+                className="text-primary font-medium underline"
+              >
+                Projects
+              </a>{" "}
+              section.
             </p>
             <p className="text-muted-foreground mb-4">
               I like sharing what I learn in tech and open source. Feel free to
@@ -52,18 +59,6 @@ export default function About() {
                 className="text-primary font-medium ml-1"
               >
                 LinkedIn
-              </a>
-              .
-            </p>
-            <p className="text-muted-foreground mb-6">
-              I'm open to <strong>job opportunities</strong> where I can
-              contribute, grow, and build amazing things. If that sounds like
-              something you'd like, don't hesitate to{" "}
-              <a
-                href="#projects"
-                className="text-primary font-medium underline"
-              >
-                check out my projects
               </a>
               .
             </p>

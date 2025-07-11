@@ -6,3 +6,10 @@ type Project = {
   link?: string;
   status: "Done" | "In Progress" | "Planning";
 };
+
+type SocialLink = {
+  icon: ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>
+  >;
+  href: string;
+};
